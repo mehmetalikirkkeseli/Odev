@@ -21,7 +21,7 @@ namespace Methods
             var result2 = Add3(number1, number2);
             //Console.WriteLine(result);
             Console.WriteLine(result2);
-            //Console.WriteLine(number1);
+            Console.WriteLine(number1);
             Console.ReadLine();
         }
 
