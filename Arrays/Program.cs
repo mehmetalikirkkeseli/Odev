@@ -16,7 +16,7 @@ namespace Arrays
             students[1] = "Derin";
             students[2] = "Salih";
 
-            string[] students2 = new [] { "Engin", "Derin", "Salih" };
+            string[] students2 = { "Engin", "Derin", "Salih" };
             
             foreach (var student in students2)
             {
