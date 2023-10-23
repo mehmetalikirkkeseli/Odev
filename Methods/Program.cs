@@ -24,6 +24,7 @@ namespace Methods
             //Console.WriteLine(number1);
 
             Console.WriteLine(Mutiply(2,4));
+            Console.WriteLine(Mutiply2(2, 4, 5));
             Console.ReadLine();
         }
 
@@ -49,6 +50,10 @@ namespace Methods
         static int Mutiply(int number1,int number2)
         {
             return number1 * number2;
+        }
+        static int Mutiply2(int number1, int number2, int number3)
+        {
+            return number1 * number2 * number3;
         }
     }
 }
