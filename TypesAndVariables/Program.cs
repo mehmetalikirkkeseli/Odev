@@ -13,7 +13,7 @@ namespace TypesAndVariables
             //Value Types
             //Console.WriteLine("Hello World!");
             int number1 = 2147483647;
-            long number2 = 2147483647;
+            long number2 = 92233720368554775807;  //long karakter sınırı 19 dur.
             Console.WriteLine("Number1 is {0}",number1);
             Console.WriteLine("Number2 is {0}", number2);
             Console.ReadLine();
