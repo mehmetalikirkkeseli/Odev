@@ -10,7 +10,7 @@ namespace Conditionals
     {
         static void Main(string[] args)
         {
-            var number = 11;
+            var number = 200;
             //if (number == 10)
             //{
             //    Console.WriteLine("Number is 10");
