@@ -14,7 +14,8 @@ namespace Methods
             Add();
             Add();
             Add();
-            Add2(20,30);
+            var result =  Add2(20,30);
+            Console.WriteLine(result);
             Console.ReadLine();
         }
 
