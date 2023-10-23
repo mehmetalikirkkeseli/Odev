@@ -12,7 +12,7 @@ namespace TypesAndVariables
         {
             //Value Types
             //Console.WriteLine("Hello World!");
-            int number1 = 10;
+            int number1 = 100000000;
             Console.WriteLine("Number1 is {0}",number1);
             Console.ReadLine();
         }
