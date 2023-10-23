@@ -32,6 +32,6 @@ namespace TypesAndVariables
     }
     enum Days
     {
-        Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday
+        Monday=10,Tuesday=20,Wednesday=30,Thursday,Friday,Saturday,Sunday
     }
 }
