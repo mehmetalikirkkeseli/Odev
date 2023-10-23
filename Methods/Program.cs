@@ -10,12 +10,18 @@ namespace Methods
     {
         static void Main(string[] args)
         {
-            Add();
-            Add();
-            Add();
-            Add();
-            var result =  Add2();
-            Console.WriteLine(result);
+            //Add();
+            //Add();
+            //Add();
+            //Add();
+            //var result = Add2();
+
+            int number1 = 20;
+            int number2 = 100;
+            var result2 = Add3(number1, number2);
+            //Console.WriteLine(result);
+            Console.WriteLine(result2);
+            //Console.WriteLine(number1);
             Console.ReadLine();
         }
 
@@ -26,10 +32,16 @@ namespace Methods
         }
         //Parametreli Metot
         //Default parametreli metot
-        static int Add2(int number1=20, int number2=30)
+        static int Add2(int number1 = 20, int number2 = 30)
         {
             var result = number1 + number2;
             return result;
+        }
+
+        static int Add3(int number1, int number2)
+        {
+            number1 = 30;
+            return number1 + number2;
         }
     }
 }
