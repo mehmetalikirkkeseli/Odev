@@ -10,7 +10,10 @@ namespace TypesAndVariables
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //Value Types
+            //Console.WriteLine("Hello World!");
+            int number1 = 10;
+            Console.WriteLine(number1);
             Console.ReadLine();
         }
     }
