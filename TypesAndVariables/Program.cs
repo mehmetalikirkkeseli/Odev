@@ -13,6 +13,7 @@ namespace TypesAndVariables
             //Value Types
             //Console.WriteLine("Hello World!");
             double number5 = 10.4;
+            decimal number6 = 10.4m;  //virgülden sonra 29 değer tutar
             char character = 'A';
             bool condition = false;
             byte number4 = 255;  //0-255 arası veri tutar.
