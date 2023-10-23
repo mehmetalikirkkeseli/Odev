@@ -11,6 +11,9 @@ namespace Methods
         static void Main(string[] args)
         {
             Add();
+            Add();
+            Add();
+            Add();
             Console.ReadLine();
         }
 
