@@ -20,7 +20,7 @@ namespace Methods
         //Metotlar
         static void Add()
         {
-            Console.WriteLine("Added");
+            Console.WriteLine("Added!!!");
         }
     }
 }
