@@ -26,7 +26,7 @@ namespace TypesAndVariables
             Console.WriteLine("Number4 is {0}", number4);
             Console.WriteLine("Number5 is {0}", number5);
             Console.WriteLine("Character is : {0}",(int)character);
-            Console.WriteLine(Days.Friday);
+            Console.WriteLine((int)Days.Friday);
             Console.ReadLine();
         }
     }
