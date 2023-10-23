@@ -10,8 +10,15 @@ namespace Conditionals
     {
         static void Main(string[] args)
         {
-            var number = 11;
-            Console.WriteLine(number == 10 ? "Number is 10" : "Number is not 10");
+            var number = 30;
+            if (number == 10)
+            {
+                Console.WriteLine("Number is 10");
+            }
+            else if (number == 20)
+            {
+                Console.WriteLine("Number is 20");
+            }
             Console.ReadLine();
         }
     }
