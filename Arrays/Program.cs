@@ -31,9 +31,9 @@ namespace Arrays
                 {"İzmir","Muğla","Manisa"},
             };
             //GetUpperBound en üst değeri alır.
-            for (int i = 0; i < regions.GetUpperBound(0); i++)
+            for (int i = 0; i <= regions.GetUpperBound(0); i++)
             {
-                for (int j = 0; j < regions.GetUpperBound(1); j++)
+                for (int j = 0; j <= regions.GetUpperBound(1); j++)
                 {
                     Console.WriteLine(regions[i,j]);
                 }
