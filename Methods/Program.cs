@@ -40,7 +40,7 @@ namespace Methods
         //ref ve out keyword kullanımı
         static int Add3(out int number1, int number2)
         {
-            number1 = 30;
+            //number1 = 30;
             return number1 + number2;
         }
     }
