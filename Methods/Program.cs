@@ -16,12 +16,14 @@ namespace Methods
             //Add();
             //var result = Add2();
 
-            int number1 = 20;
-            int number2 = 100;
-            var result2 = Add3(out number1, number2);
-            //Console.WriteLine(result);
-            Console.WriteLine(result2);
-            Console.WriteLine(number1);
+            //int number1;
+            //int number2 = 100;
+            //var result2 = Add3(out number1, number2);
+            ////Console.WriteLine(result);
+            //Console.WriteLine(result2);
+            //Console.WriteLine(number1);
+
+            Console.WriteLine(Mutiply(2,4));
             Console.ReadLine();
         }
 
@@ -40,8 +42,13 @@ namespace Methods
         //ref ve out keyword kullanımı
         static int Add3(out int number1, int number2)
         {
-            //number1 = 30;
+            number1 = 30;
             return number1 + number2;
+        }
+        //Method Overloading
+        static int Mutiply(int number1,int number2)
+        {
+            return number1 * number2;
         }
     }
 }
