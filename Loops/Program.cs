@@ -20,6 +20,7 @@ namespace Loops
                 Console.WriteLine(number);
                 number--;
             }
+            Console.WriteLine("Now number is {0}",number);
             Console.ReadLine();
         }
 
