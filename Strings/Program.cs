@@ -18,6 +18,11 @@ namespace Strings
             {
                 Console.WriteLine(item);
             }
+
+            string city2 = "İstanbul";
+            string result = city + city2;
+
+            Console.WriteLine(result);
             Console.ReadLine();
         }
     }
