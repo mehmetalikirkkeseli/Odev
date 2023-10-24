@@ -22,7 +22,6 @@ namespace Loops
             //Foreach ifadesi
             foreach (var student in students)
             {
-                student = "Ahmet";
                 Console.WriteLine(student);
             }
             Console.ReadLine();
