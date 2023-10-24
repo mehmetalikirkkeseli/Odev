@@ -33,7 +33,9 @@ namespace Strings
             //ToUpper harfleri büyük harf yapar.
             var result11 = sentence.ToUpper();
             var result12 = sentence.Replace(" ","-");
-            Console.WriteLine(result12);
+            //Remove metinden belli bir indeksten sonraki bölümü atar.
+            var result13 = sentence.Remove(2);
+            Console.WriteLine(result13);
             Console.ReadLine();
         }
 
