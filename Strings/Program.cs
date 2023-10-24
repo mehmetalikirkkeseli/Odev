@@ -22,7 +22,7 @@ namespace Strings
             string city2 = "İstanbul";
             string result = city + city2;
 
-            Console.WriteLine(result);
+            Console.WriteLine(string.Format("{0} {1}",city,city2));
             Console.ReadLine();
         }
     }
