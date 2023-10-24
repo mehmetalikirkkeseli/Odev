@@ -34,7 +34,7 @@ namespace Strings
             var result11 = sentence.ToUpper();
             var result12 = sentence.Replace(" ","-");
             //Remove metinden belli bir indeksten sonraki bölümü atar.
-            var result13 = sentence.Remove(2);
+            var result13 = sentence.Remove(2,4);
             Console.WriteLine(result13);
             Console.ReadLine();
         }
