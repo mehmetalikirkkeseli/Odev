@@ -11,14 +11,25 @@ namespace Loops
         //Döngüler
         static void Main(string[] args)
         {
-            for (int i = 100; i >= 0; i=i-2)
+            //For döngüsü metoda çevrilmiştir.
+            //ForLoop();
+            int number = 100;
+            //While ifadesi
+            while (number>=0)
+            {
+                Console.WriteLine(number);
+            }
+            Console.ReadLine();
+        }
+
+        private static void ForLoop()
+        {
+            for (int i = 100; i >= 0; i = i - 2)
             {
                 Console.WriteLine(i);
             }
 
             Console.WriteLine("Finished");
-
-            Console.ReadLine();
         }
     }
 }
