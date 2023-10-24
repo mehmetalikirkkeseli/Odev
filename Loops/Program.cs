@@ -16,6 +16,8 @@ namespace Loops
                 Console.WriteLine(i);
             }
 
+            Console.WriteLine("Finished");
+
             Console.ReadLine();
         }
     }
