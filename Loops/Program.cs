@@ -13,11 +13,17 @@ namespace Loops
         {
             //For döngüsü metoda çevrilmiştir.
             //ForLoop();
-            
+
             //While ifadesi metoda çevrilmiştir.
             //WhileLoop(number);
             //Do-while ifadesi metoda çevrilmiştir.
             //DoWhileLoop();
+            string[] students = new string[3] { "Engin", "Derin", "Salih" };
+            //Foreach ifadesi
+            foreach (var student in students)
+            {
+                Console.WriteLine(student);
+            }
             Console.ReadLine();
         }
 
