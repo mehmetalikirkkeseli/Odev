@@ -24,7 +24,9 @@ namespace Strings
             var result5 = sentence.IndexOf("namee");
             var result6 = sentence.IndexOf(" ");
             var result7 = sentence.LastIndexOf(" ");
-            Console.WriteLine(result7);
+            //Insert cümleye ekleme yapmak için kullanılır.
+            var result8 = sentence.Insert(0,"Hello, ");
+            Console.WriteLine(result8);
             Console.ReadLine();
         }
 
