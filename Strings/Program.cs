@@ -12,7 +12,12 @@ namespace Strings
         static void Main(string[] args)
         {
             string city = "Ankara";
-            Console.WriteLine(city[0]);
+            //Console.WriteLine(city[0]);
+
+            foreach (var item in city)
+            {
+                Console.WriteLine(item);
+            }
             Console.ReadLine();
         }
     }
