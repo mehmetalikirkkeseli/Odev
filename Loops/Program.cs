@@ -18,6 +18,7 @@ namespace Loops
             while (number>=0)
             {
                 Console.WriteLine(number);
+                number--;
             }
             Console.ReadLine();
         }
