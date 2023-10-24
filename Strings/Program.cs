@@ -13,10 +13,16 @@ namespace Strings
         {
             //Intro();
             string sentence = "My name is Engin Demiroğ";
+
             var result = sentence.Length;
             var result2 = sentence.Clone();
             sentence = "My name is Derin Demiroğ";
-            Console.WriteLine(result2);
+            //EndsWith cümlenin hangi harfle bittiğini kontrol eder.
+            bool result3 = sentence.EndsWith("ğ");
+            bool result4 = sentence.StartsWith("My name");
+            //IndexOf karakter araması yapar.
+            var result5 = sentence.IndexOf("name");
+            Console.WriteLine(result5);
             Console.ReadLine();
         }
 
