@@ -23,7 +23,8 @@ namespace Strings
             //IndexOf karakter araması yapar.
             var result5 = sentence.IndexOf("namee");
             var result6 = sentence.IndexOf(" ");
-            Console.WriteLine(result6);
+            var result7 = sentence.LastIndexOf(" ");
+            Console.WriteLine(result7);
             Console.ReadLine();
         }
 
