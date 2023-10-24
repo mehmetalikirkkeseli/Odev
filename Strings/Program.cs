@@ -22,7 +22,8 @@ namespace Strings
             bool result4 = sentence.StartsWith("My name");
             //IndexOf karakter araması yapar.
             var result5 = sentence.IndexOf("namee");
-            Console.WriteLine(result5);
+            var result6 = sentence.IndexOf(" ");
+            Console.WriteLine(result6);
             Console.ReadLine();
         }
 
