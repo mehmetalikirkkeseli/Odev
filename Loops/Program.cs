@@ -21,7 +21,7 @@ namespace Loops
             {
                 Console.WriteLine(number);
                 number--;
-            } while (number>=0);
+            } while (number>=11);
             Console.ReadLine();
         }
 
