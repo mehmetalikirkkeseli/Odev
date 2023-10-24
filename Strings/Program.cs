@@ -11,6 +11,15 @@ namespace Strings
         //String ifadeler
         static void Main(string[] args)
         {
+            //Intro();
+            string sentence = "My name is Engin Demiroğ";
+            var result = sentence.Length;
+            Console.WriteLine(result);
+            Console.ReadLine();
+        }
+
+        private static void Intro()
+        {
             string city = "Ankara";
             //Console.WriteLine(city[0]);
 
@@ -22,8 +31,7 @@ namespace Strings
             string city2 = "İstanbul";
             string result = city + city2;
 
-            Console.WriteLine(string.Format("{0} {1}",city,city2));
-            Console.ReadLine();
+            Console.WriteLine(string.Format("{0} {1}", city, city2));
         }
     }
 }
