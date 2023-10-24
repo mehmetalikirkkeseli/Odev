@@ -18,13 +18,18 @@ namespace Loops
             //WhileLoop(number);
             //Do-while ifadesi metoda çevrilmiştir.
             //DoWhileLoop();
+            //Foreach ifadesi metoda çevrilmiştir.
+            //ForEachLoop();
+            Console.ReadLine();
+        }
+
+        private static void ForEachLoop()
+        {
             string[] students = new string[3] { "Engin", "Derin", "Salih" };
-            //Foreach ifadesi
             foreach (var student in students)
             {
                 Console.WriteLine(student);
             }
-            Console.ReadLine();
         }
 
         private static void DoWhileLoop()
