@@ -28,7 +28,11 @@ namespace Strings
             var result8 = sentence.Insert(0,"Hello, ");
             //Substring metni parçalar.
             var result9 = sentence.Substring(3,4);
-            Console.WriteLine(result9);
+            //ToLower harfleri küçük harf yapar.
+            var result10 = sentence.ToLower();
+            //ToUpper harfleri büyük harf yapar.
+            var result11 = sentence.ToUpper();
+            Console.WriteLine(result11);
             Console.ReadLine();
         }
 
