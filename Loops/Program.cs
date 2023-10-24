@@ -16,11 +16,14 @@ namespace Loops
 
             //While ifadesi metoda çevrilmiştir.
             //WhileLoop(number);
+
             //Do-while ifadesi metoda çevrilmiştir.
             //DoWhileLoop();
+
             //Foreach ifadesi metoda çevrilmiştir.
             //ForEachLoop();
-            if (IsPrimeNumber(6))
+
+            if (IsPrimeNumber(7))
             {
                 Console.WriteLine("This is a prime number");
             }
