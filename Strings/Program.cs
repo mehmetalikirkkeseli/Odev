@@ -32,7 +32,8 @@ namespace Strings
             var result10 = sentence.ToLower();
             //ToUpper harfleri büyük harf yapar.
             var result11 = sentence.ToUpper();
-            Console.WriteLine(result11);
+            var result12 = sentence.Replace(" ","-");
+            Console.WriteLine(result12);
             Console.ReadLine();
         }
 
