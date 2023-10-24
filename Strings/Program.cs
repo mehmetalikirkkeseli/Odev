@@ -14,7 +14,9 @@ namespace Strings
             //Intro();
             string sentence = "My name is Engin Demiroğ";
             var result = sentence.Length;
-            Console.WriteLine(result);
+            var result2 = sentence.Clone();
+            sentence = "My name is Derin Demiroğ";
+            Console.WriteLine(result2);
             Console.ReadLine();
         }
 
