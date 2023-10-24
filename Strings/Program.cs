@@ -26,7 +26,8 @@ namespace Strings
             var result7 = sentence.LastIndexOf(" ");
             //Insert cümleye ekleme yapmak için kullanılır.
             var result8 = sentence.Insert(0,"Hello, ");
-            var result9 = sentence.Substring(3);
+            //Substring metni parçalar.
+            var result9 = sentence.Substring(3,4);
             Console.WriteLine(result9);
             Console.ReadLine();
         }
