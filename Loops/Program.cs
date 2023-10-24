@@ -13,14 +13,21 @@ namespace Loops
         {
             //For döngüsü metoda çevrilmiştir.
             //ForLoop();
-            int number = 100;
+            
             //While ifadesi metoda çevrilmiştir.
-            WhileLoop(number);
+            //WhileLoop(number);
+            int number = 10;
+            do
+            {
+                Console.WriteLine(number);
+                number--;
+            } while (number>=0);
             Console.ReadLine();
         }
 
-        private static void WhileLoop(int number)
+        private static void WhileLoop()
         {
+            int number = 100;
             while (number >= 0)
             {
                 Console.WriteLine(number);
