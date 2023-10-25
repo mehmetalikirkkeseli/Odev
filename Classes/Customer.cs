@@ -10,16 +10,18 @@ namespace Classes
     {   //Property eklemek için prop kısayolu kullanılır.
         //Field tanımlama
         //public string FirstName;
+        //private string _firstName;
+        //public string FirstName
+        //{
+        //    //Encapsulation
+        //    get
+        //    { return "Mrs. " + _firstName; }
+        //    set
+        //    { _firstName = value; }
+        //}
 
         public int Id { get; set; }
-        private string _firstName;
-        public string FirstName
-        {
-            get
-            { return "Mrs. " +  _firstName;}
-            set
-            { _firstName = value; }
-        }
+        public string FirstName { get; set; }
         public string LastName { get; set; }
         public string City { get; set; }
     }
