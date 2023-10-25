@@ -35,6 +35,7 @@ namespace RecapDemo_1
                     //Butonu ekrana ekleme
                     this.Controls.Add(buttons[i, j]);
                 }
+                left = 0;
             }
         }
     }
