@@ -10,6 +10,7 @@ namespace Interfaces
     {
         //Interface kavramı
         //: ile interface class'a tanımlanır.
+        //Interfaceler metoda da tanımlanır.
         static void Main(string[] args)
         {
             PersonManager manager = new PersonManager();
@@ -50,6 +51,14 @@ namespace Interfaces
         public string Address { get; set; }
     }
     class Student : IPerson
+    {
+        public int Id { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+
+        public string Department { get; set; }
+    }
+    class Worker : IPerson
     {
         public int Id { get; set; }
         public string FirstName { get; set; }
