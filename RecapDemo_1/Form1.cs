@@ -33,6 +33,15 @@ namespace RecapDemo_1
                     buttons[i, j].Left = left;
                     buttons[i, j].Top = top;
                     left += 50;
+                    //Dama tahtası renkeri
+                    if ((i+j)%2==0)
+                    {
+                        buttons[i, j].BackColor = Color.Black;
+                    }
+                    else
+                    {
+                        buttons[i, j].BackColor = Color.White;
+                    }
                     //Butonu ekrana ekleme
                     this.Controls.Add(buttons[i, j]);
                 }
