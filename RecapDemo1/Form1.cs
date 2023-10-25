@@ -20,11 +20,16 @@ namespace RecapDemo1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Button button = new Button();
-            //Butonu ekrana ekleme
-            button.Width = 50;
-            button.Height = 50;
-            this.Controls.Add(button);
+            for (int i = 0; i <= 64; i++)
+            {
+                Button button = new Button();
+                //Butonu ekrana ekleme
+                button.Width = 50;
+                button.Height = 50;
+                button.Text = "My button";
+                this.Controls.Add(button);
+            }
+ 
         }
     }
 }
