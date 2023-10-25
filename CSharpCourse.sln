@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops\Loops.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "Strings\Strings.csproj", "{ECEE2679-E763-4A84-9987-BD363C1DA66F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{DD6BB1FA-4600-4FE0-9794-602EF74C0623}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{ECEE2679-E763-4A84-9987-BD363C1DA66F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECEE2679-E763-4A84-9987-BD363C1DA66F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECEE2679-E763-4A84-9987-BD363C1DA66F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD6BB1FA-4600-4FE0-9794-602EF74C0623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD6BB1FA-4600-4FE0-9794-602EF74C0623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD6BB1FA-4600-4FE0-9794-602EF74C0623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD6BB1FA-4600-4FE0-9794-602EF74C0623}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
