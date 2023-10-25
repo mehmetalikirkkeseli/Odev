@@ -20,7 +20,17 @@ namespace Interfaces
                 LastName = "Demiroğ",
                 Address = "Ankara"
             };
+
+            Student student = new Student
+            {
+                Id = 1,
+                FirstName = "Derin",
+                LastName = "Demiroğ",
+                Department = "Computer Sciences"
+                
+            };
             manager.Add(customer);
+            manager.Add(student);
 
             Console.ReadLine();
         }
@@ -49,9 +59,9 @@ namespace Interfaces
     }
     class PersonManager
     {
-        public void Add(Customer customer)
+        public void Add(IPerson person)
         {
-            Console.WriteLine(customer.FirstName);
+            Console.WriteLine(person.FirstName);
         }
     }
 }
