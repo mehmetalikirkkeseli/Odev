@@ -16,6 +16,10 @@ namespace Classes
             customerManager.Add();
             customerManager.Update();
 
+            ProductManager productManager = new ProductManager();
+            productManager.Add();
+            productManager.Update();
+
             Console.ReadLine();
         }
 
@@ -28,6 +32,17 @@ namespace Classes
             public void Update()
             {
                 Console.WriteLine("Customer Updated!");
+            }
+        }
+        class ProductManager
+        {
+            public void Add()
+            {
+                Console.WriteLine("Product Added!");
+            }
+            public void Update()
+            {
+                Console.WriteLine("Product Updated!");
             }
         }
     }
