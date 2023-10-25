@@ -31,10 +31,12 @@ namespace RecapDemo_1
                     buttons[i, j].Width = 50;
                     buttons[i, j].Height = 50;
                     buttons[i, j].Left = left;
+                    buttons[i, j].Top = top;
                     left += 50;
                     //Butonu ekrana ekleme
                     this.Controls.Add(buttons[i, j]);
                 }
+                top += 50;
                 left = 0;
             }
         }
