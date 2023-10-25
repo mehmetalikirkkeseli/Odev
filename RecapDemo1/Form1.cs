@@ -20,16 +20,21 @@ namespace RecapDemo1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            for (int i = 1; i <= 64; i++)
+            //64 tane buton için dizi oluşturulmuştur.
+            Button[,] buttons = new Button[8,8];
+            for (int i = 0; i < buttons.GetUpperBound(0); i++)
             {
-                Button button = new Button();
-                //Butonu ekrana ekleme
-                button.Width = 50;
-                button.Height = 50;
-                button.Text = "My button";
-                this.Controls.Add(button);
+                for (int j = 0; j < buttons.GetUpperBound(1); j++)
+                {
+                    buttons[i, j] = new Button();
+                    buttons[i, j].Width = 50;
+                    buttons[i, j].Height = 50;
+                    //Butonu ekrana ekleme
+                    this.Controls.Add(buttons[i,j]);
+                }
             }
- 
+
+
         }
     }
 }
