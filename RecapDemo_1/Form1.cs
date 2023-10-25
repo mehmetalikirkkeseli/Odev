@@ -19,6 +19,11 @@ namespace RecapDemo_1
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            GenerateButtons();
+        }
+
+        private void GenerateButtons()
+        {
             //64 tane buton için dizi oluşturulmuştur.
             Button[,] buttons = new Button[8, 8];
             int top = 0;
@@ -34,7 +39,7 @@ namespace RecapDemo_1
                     buttons[i, j].Top = top;
                     left += 50;
                     //Dama tahtası renkeri
-                    if ((i+j)%2==0)
+                    if ((i + j) % 2 == 0)
                     {
                         buttons[i, j].BackColor = Color.Black;
                     }
