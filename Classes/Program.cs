@@ -27,7 +27,7 @@ namespace Classes
             }
             public void Update()
             {
-                Console.WriteLine("Custoemer Updated!");
+                Console.WriteLine("Customer Updated!");
             }
         }
     }
