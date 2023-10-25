@@ -20,7 +20,7 @@ namespace RecapDemo1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            for (int i = 0; i <= 64; i++)
+            for (int i = 1; i <= 64; i++)
             {
                 Button button = new Button();
                 //Butonu ekrana ekleme
