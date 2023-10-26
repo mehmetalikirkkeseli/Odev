@@ -47,6 +47,24 @@ namespace Interfaces
             Console.WriteLine("Oracle updated");
         }
     }
+    //MySqlCustomerDal class'ı oluşturulmuştur.
+    class MySqlCustomerDal : ICustomerDal
+    {
+        public void Add()
+        {
+            Console.WriteLine("MqSql added");
+        }
+
+        public void Delete()
+        {
+            Console.WriteLine("MySql deleted");
+        }
+
+        public void Update()
+        {
+            Console.WriteLine("MySql updated");
+        }
+    }
     class CustomerManager
     {
         public void Add(ICustomerDal customerDal)

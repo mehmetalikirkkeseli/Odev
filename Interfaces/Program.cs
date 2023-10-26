@@ -19,10 +19,11 @@ namespace Interfaces
             //Demo metodu oluşturulmuştur.
             //Demo();
 
-            ICustomerDal[] customerDals = new ICustomerDal[2]
+            ICustomerDal[] customerDals = new ICustomerDal[3]
             {
                 new SqlCustomerDal(),
-                new OracleCustomerDal()
+                new OracleCustomerDal(),
+                new MySqlCustomerDal()
             };
             foreach (var customerDal in customerDals)
             {
