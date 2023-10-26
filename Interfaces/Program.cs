@@ -16,6 +16,7 @@ namespace Interfaces
             //InterfacesIntro metodu oluşturulmuştur.
             //InterfacesIntro();
 
+            
             Console.ReadLine();
         }
 
