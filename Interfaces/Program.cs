@@ -13,6 +13,14 @@ namespace Interfaces
         //Interfaceler metoda da tanımlanır.
         static void Main(string[] args)
         {
+            //InterfacesIntro metodu oluşturulmuştur.
+            //InterfacesIntro();
+
+            Console.ReadLine();
+        }
+
+        private static void InterfacesIntro()
+        {
             PersonManager manager = new PersonManager();
             Customer customer = new Customer
             {
@@ -28,12 +36,10 @@ namespace Interfaces
                 FirstName = "Derin",
                 LastName = "Demiroğ",
                 Department = "Computer Sciences"
-                
+
             };
             manager.Add(customer);
             manager.Add(student);
-
-            Console.ReadLine();
         }
     }
     interface IPerson
