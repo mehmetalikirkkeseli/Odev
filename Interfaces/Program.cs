@@ -16,7 +16,8 @@ namespace Interfaces
             //InterfacesIntro metodu oluşturulmuştur.
             //InterfacesIntro();
 
-            
+            CustomerManager customerManager = new CustomerManager();
+            customerManager.Add(new SqlCustomerDal());
             Console.ReadLine();
         }
 

@@ -47,4 +47,11 @@ namespace Interfaces
             Console.WriteLine("Oracle updated");
         }
     }
+    class CustomerManager
+    {
+        public void Add(ICustomerDal customerDal)
+        {
+            customerDal.Add();
+        }
+    }
 }
