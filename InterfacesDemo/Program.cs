@@ -17,9 +17,17 @@ namespace InterfacesDemo
     interface IWorker
     {
         void Work();
+        
+    }
+    //IEat interface'i oluşturulmuştur.
+    interface IEat
+    {
         void Eat();
+    }
+    //ISalary interface'i oluşturulmuştur.
+    interface ISalary
+    {
         void GetSalary();
-            
     }
     class Manager : IWorker
     {
@@ -59,17 +67,17 @@ namespace InterfacesDemo
     {
         public void Eat()
         {
-            throw new NotImplementedException();
+            
         }
 
         public void GetSalary()
         {
-            throw new NotImplementedException();
+            
         }
 
         public void Work()
         {
-            throw new NotImplementedException();
+            
         }
     }
 }
