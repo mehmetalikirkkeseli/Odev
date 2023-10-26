@@ -13,4 +13,38 @@ namespace Interfaces
         void Update();
         void Delete();
     }
+    class SqlCustomerDal : ICustomerDal
+    {
+        void ICustomerDal.Add()
+        {
+            Console.WriteLine("Sql added");
+        }
+
+        void ICustomerDal.Delete()
+        {
+            Console.WriteLine("Sql deleted");
+        }
+
+        void ICustomerDal.Update()
+        {
+            Console.WriteLine("Sql updated");
+        }
+    }
+    class OracleCustomerDal : ICustomerDal
+    {
+        public void Add()
+        {
+            Console.WriteLine("Oracle added");
+        }
+
+        public void Delete()
+        {
+            Console.WriteLine("Oracle deleted");
+        }
+
+        public void Update()
+        {
+            Console.WriteLine("Oracle updated");
+        }
+    }
 }
