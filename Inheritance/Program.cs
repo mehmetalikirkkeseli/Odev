@@ -41,11 +41,7 @@ namespace Inheritance
         public string FirstName { get; set; }
         public string LastName { get; set; }
     }
-    interface IPerson
-    {
-
-    }
-    class Customer : Person,IPerson
+    class Customer : Person
     {
         public string City { get; set; }
     }
