@@ -17,7 +17,7 @@ namespace InterfacesDemo
     interface IWorker
     {
         void Work();
-        
+
     }
     //IEat interface'i oluşturulmuştur.
     interface IEat
@@ -29,13 +29,8 @@ namespace InterfacesDemo
     {
         void GetSalary();
     }
-    class Manager : IWorker
+    class Manager : IWorker, IEat, ISalary
     {
-        public void Eat()
-        {
-            throw new NotImplementedException();
-        }
-
         public void GetSalary()
         {
             throw new NotImplementedException();
@@ -45,8 +40,13 @@ namespace InterfacesDemo
         {
             throw new NotImplementedException();
         }
+
+        void IEat.Eat()
+        {
+            throw new NotImplementedException();
+        }
     }
-    class Worker : IWorker
+    class Worker : IWorker, IEat, ISalary
     {
         public void Eat()
         {
@@ -65,19 +65,9 @@ namespace InterfacesDemo
     }
     class Robot : IWorker
     {
-        public void Eat()
-        {
-            
-        }
-
-        public void GetSalary()
-        {
-            
-        }
-
         public void Work()
         {
-            
+            throw new NotImplementedException();
         }
     }
 }
