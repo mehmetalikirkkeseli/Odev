@@ -9,6 +9,7 @@ namespace Inheritance
     internal class Program
     {
         //Inheritance(Kalıtım)
+        //Bir nesneye bir kere kalıtım yapılır.
         static void Main(string[] args)
         {
             Person[] persons = new Person[3]
@@ -33,13 +34,18 @@ namespace Inheritance
             Console.ReadLine();
         }
     }
+    //Ana class Person class'ıdır.
     class Person
     {
         public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
     }
-    class Customer : Person
+    interface IPerson
+    {
+
+    }
+    class Customer : Person,IPerson
     {
         public string City { get; set; }
     }
