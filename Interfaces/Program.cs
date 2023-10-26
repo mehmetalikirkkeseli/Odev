@@ -16,8 +16,9 @@ namespace Interfaces
             //InterfacesIntro metodu oluşturulmuştur.
             //InterfacesIntro();
 
+            //CustomerManager class'ı çağrılmıştır.
             CustomerManager customerManager = new CustomerManager();
-            customerManager.Add(new SqlCustomerDal());
+            customerManager.Add(new OracleCustomerDal());
             Console.ReadLine();
         }
 
